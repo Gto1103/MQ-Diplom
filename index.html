@@ -12,22 +12,24 @@
 <body>
 	<header class="header">
 		<div class="container_header">
-			<div class="logo_menu">
+			<div class="container_logo_menu">
 				<div class="logo">
-					<a href="/"><img src="svg/noemi-logo.svg"
-						alt="Логотип сайта Noemi">
+					<a href="/"><img src="svg/noemi-logo.svg" alt="Логотип сайта Noemi">
 					</a>
 				</div>
-				<div class="container_menu">
+				<nav class="container_menu">
+					<button class="menu__button js-menu__button">
+						<span class="menu__button-label">открыть меню</span>
+					</button>
 					<ul class="menu">
-						<li class="menu_list"><a class="menu_list_link" href="*">главная</a></li>
-						<li class="menu_list"><a class="menu_list_link" href="*">посты</a></li>
-						<li class="menu_list"><a class="menu_list_link" href="*">статьи</a></li>
-						<li class="menu_list"><a class="menu_list_link" href="*">теги</a></li>
-						<li class="menu_list"><a class="menu_list_link" href="*">темы</a></li>
-						<li class="menu_list"><a class="menu_list_link" href="*">контакты</a></li>
+						<li class="menu_list"><a class="menu_list_link" href="#0">главная</a></li>
+						<li class="menu_list"><a class="menu_list_link" href="#0">посты</a></li>
+						<li class="menu_list"><a class="menu_list_link" href="#0">статьи</a></li>
+						<li class="menu_list"><a class="menu_list_link" href="#0">теги</a></li>
+						<li class="menu_list"><a class="menu_list_link" href="#0">темы</a></li>
+						<li class="menu_list"><a class="menu_list_link" href="#0">контакты</a></li>
 					</ul>
-				</div>
+				</nav>
 			</div>
 			<div class="container_title">
 				<h1 class="title">блог о творчестве, спорте, и образе жизни</h1>
@@ -95,8 +97,8 @@
 	<div class="wrapper_main">
 		<main class="articles">
 			<section class="post">
-				<div class="image">
-					<img src="images/last-post1.jpg"
+				<div class="post_image">
+					<img class="image" src="images/last-post1.jpg"
 					alt="Человек идёт по берегу на рассвете">
 				</div>
 				<div class="content">
@@ -456,6 +458,7 @@
 			</section>
 		</div>
 	</article>
+
 	<footer class="footer">
 		<address class="socials_row">
 			<ul class="socials">
@@ -531,11 +534,8 @@
 					</div>
 				</form>
 			</div>
-
 		</div>
-
 	</div>
-
 </body>
 
 </html>
